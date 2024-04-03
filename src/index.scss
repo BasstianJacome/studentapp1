@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.header {
+  background-color: blue;
+  color: white;
+}
+
+.footer{
+  background-color: blue;
+  color: white;
+}
+
+.studentform {
+  display: block; /* Ensures each label appears on a new line */
+  margin-bottom: 5px; /* Adds spacing between labels */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+
+.studentform input[type="text"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
